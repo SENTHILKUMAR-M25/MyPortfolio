@@ -6,7 +6,7 @@ import {
   RiNodejsLine 
 } from "react-icons/ri";
 import { SiTypescript, SiFramer, SiNextdotjs } from "react-icons/si";
-
+import { Link } from "react-router-dom";
 /* ==========================================================
    1. AMBIENT FLOATING ICON COMPONENT
 ========================================================== */
@@ -168,11 +168,11 @@ export default function PortfolioHero() {
           className="mt-12 flex flex-col sm:flex-row items-center gap-5"
         >
           <button className="group relative px-8 py-4 rounded-xl bg-red-600 text-white font-bold transition-all hover:bg-red-700 hover:scale-[1.02] active:scale-[0.98]">
-            View My Projects
+            <Link to="/project">View My Projects</Link>
           </button>
 
           <button className="px-8 py-4 rounded-xl border border-red-600/40 bg-transparent text-red-500 font-semibold transition-all hover:bg-red-600 hover:text-white active:scale-[0.98]">
-            Get in touch
+            <Link to="/contact">Get in touch</Link>
           </button>
         </motion.div>
       </div>
