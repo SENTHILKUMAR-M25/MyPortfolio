@@ -9,8 +9,9 @@ const data = {
     { year: "2025 — Present", title: "Product Designer", company: "Yaaraa Technologies", desc: "Developed user-centric flows for high-traffic SaaS platforms with a focus on accessibility and WCAG compliance." },
   ],
   education: [
-    { year: "2018 — 2021", title: "B.Tech IT", company: "Global Tech University", desc: "Focused on Computer Science fundamentals, Software Engineering, and Advanced UI Architecture." },
-    { year: "2016 — 2018", title: "Advanced CS", company: "High School Academy", desc: "Excelled in Mathematics and early Data Structures. Active participant in state-level coding hackathons." },
+    { year: "2018 — 2021", title: "B.Tech IT", company: "Sethu Institute of Technology", desc: "Focused on Computer Science fundamentals, Software Engineering, and Advanced UI Architecture." },
+    { year: "2019 — 2021",title: "Diploma in Electrical & Electronics Engineering",company: "Sri Sowdambika Polytechnic College",desc: "Focused on core subjects including Electrical Machines, Power Systems, Circuit Theory, and Industrial Electronics. Actively involved in technical workshops and hands-on lab projects."},
+    { year: "2017 — 2019", title: "Higher Secondary Education (HSC)", company: "Government Higher Secondary School", desc: "Specialized in Mathematics and Science stream. Developed strong analytical and problem-solving foundations that later supported my engineering and software development journey."},
   ]
 };
 
