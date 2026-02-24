@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ExperienceEducation from './Education';
-
+import resume from '../assets/Resume.pdf';
 
 const StatItem = ({ label, value }) => (
   <div className="flex flex-col gap-1 group">
@@ -125,9 +125,9 @@ export default function About() {
                 <motion.a
                   whileHover={{ scale: 1.02, y: -2 }}
                   whileTap={{ scale: 0.98 }}
-                  href="/resume.pdf"
+                  href={resume}
                   className="mt-12 group flex items-center justify-center w-full rounded-lg bg-red-600 px-6 py-4 text-xs font-black uppercase tracking-[0.2em] text-white transition-all hover:bg-red-700 hover:shadow-[0_0_30px_rgba(220,38,38,0.4)]"
-                >
+                 download="Senthil_Kumar_Resume.pdf">
                   Retrieve Resume.exe
                 </motion.a>
               </div>
